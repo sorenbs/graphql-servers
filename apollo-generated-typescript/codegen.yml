@@ -3,7 +3,7 @@ generates:
   ./resolvers-types.ts:
     plugins:
       - typescript
-      - typescript-resolvers
+      - typescript-resolvers s
     config:
       noSchemaStitching: true
       wrapFieldDefinitions: true
