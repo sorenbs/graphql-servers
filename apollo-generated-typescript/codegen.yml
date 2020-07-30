@@ -1,0 +1,6 @@
+schema: http://localhost:4000
+generates:
+  ./resolvers-types.ts:
+    plugins:
+      - typescript
+      - typescript-resolvers
